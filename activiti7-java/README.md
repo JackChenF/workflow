@@ -21,9 +21,9 @@
 
 #### 相关文档
 
-[本地部署文档](./document/deploy.md)
+[本地部署文档](../document/deploy.md)
 
-[关于流程定义表单和数据库表结构动态绑定(重要)](./document/bpmnDataTable.md)
+[关于流程定义表单和数据库表结构动态绑定(重要)](../document/bpmnDataTable.md)
 
 #### 已完成功能
 
@@ -67,12 +67,12 @@
 
 ####  预览
 
-| ![](images/dataTableSetting.png) | ![](images/bindTable.png)         |
+| ![](../images/dataTableSetting.png) | ![](../images/bindTable.png)         |
 | -------------------------------- | --------------------------------- |
-| ![](images/form.png)             | ![](images/executionListener.png) |
-| ![](images/mainForm.png)         | ![](images/condition.png)         |
-| ![](images/start.png)            | ![](images/approve.png)           |
-| ![](images/log.png)              | ![](images/flow.png)              |
+| ![](../images/form.png)             | ![](../images/executionListener.png) |
+| ![](../images/mainForm.png)         | ![](../images/condition.png)         |
+| ![](../images/start.png)            | ![](../images/approve.png)           |
+| ![](../images/log.png)              | ![](../images/flow.png)              |
 
 
 

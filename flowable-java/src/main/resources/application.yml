@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://116.198.224.110:3380/process?useSSL=false&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: Cosmo_1!
+
+flowable:
+  # 业务流程设计的表自动创建
+  database-schema-update: true
+  # 异步执行耗时操作，提升性能
+  async-executor-activate: false
