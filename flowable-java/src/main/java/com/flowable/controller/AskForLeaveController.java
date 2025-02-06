@@ -17,7 +17,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
- 
+
+/**
+ * 工作流流程说明，以请假为例：
+ * （1）项目在启动时，根据xml定义的流程图，生成一个流程定义，该流程定义保存在 act_re_procdef 中；
+ * （2）当用户发起一个请假申请时，根据流程定义实时生成一个流程实例，该流程实例保存在 act_ru_execution 中，该实例表中会记录父节点的信息；
+ * （3）同时在运行任务表中 act_ru_task 会保留当前正在执行的任务信息，注意，这张表只会保留当前任务的信息，不会保留流程已经走过的节点信息，要查询流程已经走过的信息可去 act_hi_taskinst；
+ * （4）我们可以在流程运行时实际实例中 act_ru_actinst 追踪每个节点的状态，以及审批的结果。
+ */
 @RestController
 public class AskForLeaveController {
     @Autowired
